@@ -1,0 +1,618 @@
+            /* 1. Use a more-intuitive box-sizing model */
+            *, *::before, *::after {
+            box-sizing: border-box;
+            }
+            /* 2. Remove default margin */
+            * {
+            margin: 0;
+            }
+            body {
+            /* 3. Add accessible line-height */
+            line-height: 1.5;
+            /* 4. Improve text rendering */
+            -webkit-font-smoothing: antialiased;
+            }
+            /* 5. Improve media defaults */
+            img, picture, video, canvas, svg {
+            display: block;
+            max-width: 100%;
+            }
+            /* 6. Inherit fonts for form controls */
+            input, button, textarea, select {
+            font: inherit;
+            }
+            /* 7. Avoid text overflows */
+            p, h1, h2, h3, h4, h5, h6 {
+            overflow-wrap: break-word;
+            }
+            /* 8. Improve line wrapping */
+            p {
+            text-wrap: pretty;
+            }
+            h1, h2, h3, h4, h5, h6 {
+            text-wrap: balance;
+            }
+            /*
+            9. Create a root stacking context
+            */
+            #root, #__next {
+            isolation: isolate;
+            }
+
+
+nav{
+     background-color: rgb(206,88,156);
+     text-align: center;
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+
+ }
+
+.alfredo{
+   
+    justify-content: center;
+    z-index: 1000;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
+    
+
+}
+.carriito{
+    width: 4.25%;
+    height: 4.25%;
+    margin-top:20px ;
+    padding: 1%;
+
+    
+}
+li{
+    background-color: pink;
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large; 
+    padding: 10px 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    margin-top: 00px;
+    text-align: center;
+    margin: 25px;
+}
+
+li:hover{
+    background-color: rgb(122, 170, 50, 0.799);
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large; 
+    padding: 10px 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+}
+
+li:active{
+    background-color: rgb(148,148,148);
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large; 
+    padding: 10px 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+}
+
+
+
+.p1{
+    color: rgb(255, 202, 220);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 75px;
+    font-style: italic;
+    margin-bottom: 40px;
+    margin-top: 150px;
+    padding: 20px;
+    background-color:  rgb(120, 52, 52); 
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.contiene-tabla{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 1.5vw;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.fondo-rosita{
+    background-color: rgb(255, 202, 220); 
+    margin-top: 5px;
+    color: rgba(120, 52, 52, 0.72);
+    font-size: 28px;
+    margin-bottom: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+
+.precio-tachado{
+    background-color: rgb(255, 202, 220); 
+    font-size: 20px;
+    color: rgba(248, 124, 165, 0.819);
+    font-weight: bold;
+    display: flex;
+    flex-direction: left;
+    margin-left: 25%;
+    margin-top: 10px;
+    
+}
+
+.precio-nuevo{
+    background-color: rgb(255, 202, 220); 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    flex-direction: right;
+    color: rgb(240, 51, 114);
+    margin-left:5% ;
+    margin-bottom: 0%;
+    font-style: italic;
+    margin-bottom: 2%;
+}
+
+.img3{
+
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+      
+}
+
+.p2{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 60px;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 0%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(165, 164, 164); 
+    text-decoration: none;
+}
+
+.historia-1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px ;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.contiene-tabla-2{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: 1fr ; 
+    gap: 2vw;
+}
+
+.contiene-tabla-2-1{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: 1fr ; 
+    gap: 1vw;
+}
+
+.img4{
+    border: 5px solid rgb(151, 150, 151);
+    background-color: rgb(255, 255, 255);
+    margin-left: 58%;
+    padding: 1%;
+}
+
+.CEO{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 35px;
+    border: 5px solid rgb(151, 150, 151);
+    margin-top: 10px;
+    margin-left: 0%;
+    margin-right: 30%;
+
+}
+
+.Texto-CEO-1{
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    background-color: white;
+    text-align: justify;
+    margin-left: 0%;
+}
+
+
+.CEO2{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:15%;
+    margin-right:01%;
+    background-color: white;
+    padding: 20px;
+    border: 5px solid rgb(151, 150, 151);
+    margin-top: 15%;
+
+}
+
+.Texto-CEO-2{
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    background-color: white;
+    justify-content: right;
+    text-align: justify;
+}
+
+.img5{
+    border: 5px solid rgb(151, 150, 151);
+    margin-right: 0%;
+    padding: 50px;
+    margin-top: 15%;
+    width: 68%;
+    margin-left: 2%;
+}
+
+.contiene-tabla-3{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr ; 
+    gap: 10px;
+    margin-top: 10%;
+    background-color: rgb(235, 183, 249);
+}
+
+.img6{
+    width: 40%;
+    padding-top: 20px;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.texto-casillas-propiedades{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 10%;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.contiene-tabla-4{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr  ; 
+    gap: 2%;
+    margin-bottom: 2%;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.CTP{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: grey;
+    text-align: right;
+    padding-right: 10px;
+}
+.CTP-2{
+    font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: grey;
+    text-align: left;
+}
+.contiene-tabla-5{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr  ; 
+    gap: 0%;
+    margin-bottom: 1%;
+    border-left: 1px solid grey;
+    height: 80%;
+}
+
+.RRSS{
+    width: 80%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.RRSS-2{
+    width: 65%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.contiene-tabla-pg-2{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    margin-left: 12.5%; 
+    gap: 2vw;
+    width: 75vw;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.p1-pg-2{
+    color: rgb(255, 202, 220);
+    background-color: rgb(120, 52, 52, 0.72) ;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-right: 69.5%;
+    padding-left: 5%;
+    text-align: center;  
+}
+.p2-pg-2{
+    color: rgb(120, 52, 52, 0.72);
+    background-color: rgb(255, 202, 220) ;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 40px;  
+}
+.fondo-rosita-pg-2{
+    background-color: rgb(255, 202, 220); 
+    margin-top: 5px;
+    color: rgba(120, 52, 52, 0.72);
+    font-size: 28px;
+    margin-bottom: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+.img3-pg-2{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: white;
+}
+.img3-2-2-pg-2{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    background-color: white;
+}
+.img3-2-2-1-pg-2{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 16%;
+    background-color: white;
+    height: 47%;
+}
+.img3-21-pg-2{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    background-color: white;
+    height: 46%;
+}
+.img3-2-pg-2{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 8%;
+    background-color: white;
+}
+.img3-7-pg-2{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left:5% ;
+    padding-right: 5%;
+    margin-left:3%;
+    background-color: white;
+    width: 95%;
+}
+.img3-22-pg-2{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 8%;
+    background-color: white;
+}
+.img3-3-pg-2{
+    margin-top: 10%;
+    padding: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+}
+
+.img3-31-pg-2{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 7%;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+.img3-3-2-pg-2{
+    margin-top: 20%;
+    padding: 5%;
+    margin-left: 0%;
+    width: 100%;
+    background-color: rgb(255, 202, 220);
+}
+.img3-4-pg-2{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    margin-left: 12%;
+    width: 78%;
+    background-color: white;
+
+}
+.a-1 {
+    text-decoration: none;
+    color: grey;
+}
+.margen-precio{
+    margin-left: 33%;
+}
+
+.p3{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 0%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(122, 170, 50, 0.799); 
+    text-decoration: underline
+}
+
+
+
+.contiene-tabla-7{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr ; 
+    padding: 2%;
+    background-color: rgba(122, 170, 50, 0.185); 
+    margin-left: 10%;
+    margin-right: 8%;
+    color: rgba(70, 69, 69, 0.751);
+    font-size:30px ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-bottom: 5%;
+
+}
+.yexyo{
+    margin-right: 20%;
+    color: rgb(0, 0, 0);
+    font-size:18px ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+    
+}
+
+
+
+
+.imagen-noticias{
+    width: 75%;
+}
+
+.imagen-noticias-1{
+    width: 70%;
+    margin-left: 20%;
+}
+
+.imagen-noticias-2{
+    width: 90%;
+    
+}
+.contiene-tabla-8{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr ; 
+    gap: 1vw;
+    padding: 2%;
+    background-color: rgba(122, 170, 50, 0.185); 
+   margin-top: 200px;
+    margin-left: 14%;
+    margin-right: 14%;
+    color: rgba(70, 69, 69, 0.751);
+    font-size:30px ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-bottom: 5%;
+
+}
