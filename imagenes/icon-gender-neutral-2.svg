@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 198.3 198">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st1 {
+        stroke-linecap: square;
+      }
+
+      .st1, .st2, .st3, .st4 {
+        fill: none;
+      }
+
+      .st1, .st2, .st4 {
+        stroke-miterlimit: 10;
+      }
+
+      .st1, .st4 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+
+      .st2 {
+        stroke: #dadada;
+      }
+
+      .st5 {
+        fill: #fff;
+      }
+
+      .st6 {
+        fill: #f6bbd4;
+      }
+
+      .st7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st8 {
+        fill: #d4007f;
+      }
+
+      .st9 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st10 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st11 {
+        display: none;
+      }
+
+      .st12 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st4 {
+        stroke-linecap: round;
+      }
+
+      .st13 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath-2">
+      <rect class="st3" x="5693.6" y="5711.2" width="198" height="198"/>
+    </clipPath>
+    <symbol id="Nuevo_símbolo" viewBox="0 0 11602.8 11602.8">
+      <g>
+        <circle class="st2" cx="5792.6" cy="5810.2" r="99"/>
+        <rect class="st2" x="5743.1" y="5760.7" width="99" height="99"/>
+        <circle class="st2" cx="5792.6" cy="5810.2" r="71.2"/>
+        <rect class="st2" x="5693.6" y="5711.2" width="198" height="198"/>
+        <rect class="st2" x="5792.6" y="5711.2" width="99" height="99"/>
+        <rect class="st2" x="5792.6" y="5810.1" width="99" height="99"/>
+        <rect class="st2" x="5693.6" y="5711.2" width="99" height="99"/>
+        <rect class="st2" x="5693.6" y="5810.1" width="99" height="99"/>
+        <rect class="st2" x="5842.1" y="5859.7" width="49.5" height="49.5"/>
+        <rect class="st2" x="5842.1" y="5711.2" width="49.5" height="49.5"/>
+        <rect class="st2" x="5693.3" y="5859.7" width="49.5" height="49.5"/>
+        <rect class="st2" x="5693.3" y="5711.2" width="49.5" height="49.5"/>
+        <g class="st12">
+          <g>
+            <line class="st2" x1="11584.9" y1="11602.4" x2=".4" y2="17.9"/>
+            <line class="st2" x1="17.9" y1="11584.9" x2="11602.4" y2=".4"/>
+          </g>
+        </g>
+        <circle class="st2" cx="5792.6" cy="5810.2" r="86.4"/>
+      </g>
+    </symbol>
+    <clipPath id="clippath">
+      <circle class="st3" cx="99.3" cy="99" r="71.2"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st3" x="-5693.3" y="-5711.2" width="11602.8" height="11602.8"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st3" x="-5925.4" y="-5711.2" width="11602.8" height="11602.8"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st3" x="-6150.4" y="-5711.2" width="11602.8" height="11602.8"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st3" x="-6375.3" y="-5711.2" width="11602.8" height="11602.8"/>
+    </clipPath>
+  </defs>
+  <g id="CIRCULOS" class="st11">
+    <circle class="st6" cx="99.1" cy="99" r="99.4"/>
+  </g>
+  <g id="EDIT">
+    <circle class="st8" cx="99.3" cy="99" r="71.2"/>
+    <g class="st13">
+      <g>
+        <path class="st5" d="M99.1,80.1c15,0,27.2,12.2,27.2,27.2s-12.2,27.2-27.2,27.2-27.2-12.2-27.2-27.2,12.2-27.2,27.2-27.2M99.1,73.1c-18.9,0-34.2,15.3-34.2,34.2s15.3,34.2,34.2,34.2,34.2-15.3,34.2-34.2-15.3-34.2-34.2-34.2h0Z"/>
+        <line class="st4" x1="99.3" y1="139.7" x2="99.3" y2="177.7"/>
+        <line class="st1" x1="88.4" y1="155.7" x2="109.8" y2="155.7"/>
+        <g>
+          <line class="st4" x1="117.4" y1="81.3" x2="143.5" y2="55.2"/>
+          <polyline class="st4" points="123.3 53.1 145.5 53.1 145.5 74.8"/>
+        </g>
+        <g>
+          <line class="st4" x1="80.9" y1="81.1" x2="55.1" y2="55.2"/>
+          <polyline class="st4" points="75.3 53.1 53.1 53.1 53.1 74.8"/>
+        </g>
+        <line class="st1" x1="67.1" y1="76.9" x2="76.7" y2="67.2"/>
+      </g>
+    </g>
+  </g>
+  <g id="reticula" class="st11">
+    <g class="st7">
+      <use width="11602.8" height="11602.8" transform="translate(-5693.3 -5711.2)" xlink:href="#Nuevo_símbolo"/>
+    </g>
+    <g class="st10">
+      <use width="11602.8" height="11602.8" transform="translate(-5925.4 -5711.2)" xlink:href="#Nuevo_símbolo"/>
+    </g>
+    <g class="st0">
+      <use width="11602.8" height="11602.8" transform="translate(-6150.4 -5711.2)" xlink:href="#Nuevo_símbolo"/>
+    </g>
+    <g class="st9">
+      <use width="11602.8" height="11602.8" transform="translate(-6375.3 -5711.2)" xlink:href="#Nuevo_símbolo"/>
+    </g>
+  </g>
+</svg>
